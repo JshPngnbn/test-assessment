@@ -1,0 +1,12 @@
+
+.mobile{
+  display: flex
+}
+
+
+@media (max-width: 500px) {
+  .mobile {
+    display: flex;
+    flex-direction: column
+  }
+}

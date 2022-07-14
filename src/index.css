@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  font-family: 'Sora';
+
+
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+ 
+
+}
+.bgColor{
+background-color: #FAACA8;
+background-image: linear-gradient(19deg, #3F51B5 0%, #DDD6F3 100%);
+width: 40%;
+height: 500px;
+border-radius: 10px;
+animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 1s; /* don't forget to set a duration! */
+}
+@media screen and (max-width: 600px) {
+
+  .bgColor {
+    z-index: -1;
+    position: absolute;
+
+  }
+}
